@@ -1,0 +1,16 @@
+{
+  "name": "poker-hand-optimized",
+  "version": "1.0.0",
+  "description": "You're given n random cards from a single 52-card deck (no jokers), where n is between 5 and 40. Your job is to write a function that finds the best 5-card poker hand out of all the cards. Your function simply has to output \"flush\", \"straight\", etc and not the specific cards. You can use whichever language you want and choose the data structure that the cards come in.",
+  "main": "index.js",
+  "scripts": {
+    "find-best-hand": "node src/findBestHand.js -n ${N: 20}",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
